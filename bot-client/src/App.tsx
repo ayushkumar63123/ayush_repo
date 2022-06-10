@@ -1,12 +1,9 @@
 import { useState, useEffect } from 'react'
-import reportWebVitals from "./reportWebVitals";
-import { MoralisProvider } from "react-moralis";
 import Web3 from 'web3'
 import { useWeb3React } from '@web3-react/core'
 import { injected } from './constants'
 import { TableHeader } from './data'
 import React from "react";
-import ReactDOM from "react-dom";
 import { Table, TableBody, TableCell, TableHead, TableRow, Button, TextField  } from '@mui/material'
 import styled from 'styled-components'
 import { useMoralisWeb3Api } from "react-moralis";
